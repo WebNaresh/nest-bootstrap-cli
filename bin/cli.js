@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const os = require("os");
 
-const github_repo = "https://github.com/WebNaresh/rmtft.git";
+const github_repo = "https://github.com/WebNaresh/nest-bootstrap-cli.git";
 
 const runCommand = (command) => {
   try {
