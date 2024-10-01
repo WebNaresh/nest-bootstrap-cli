@@ -4,8 +4,7 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 const os = require("os");
-
-const github_repo = "https://github.com/WebNaresh/nest-bootstrap-cli.git";
+const github_repo = "https://github.com/WebNaresh/nest-js-template.git";
 
 const runCommand = (command) => {
   try {
@@ -33,7 +32,7 @@ const deleteFolderRecursive = (folderPath) => {
   }
 };
 
-const repoName = process.argv[2] || "NMVT";
+const repoName = process.argv[2] || "nest-bootstrap-cli";
 const gitCheckoutCommand = `git clone --depth 1 ${github_repo} ${repoName}`;
 const installDepsCommand = `cd ${repoName} && yarn install`;
 const removeOriginCommand = `cd ${repoName} && git remote remove origin`;

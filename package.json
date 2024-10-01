@@ -1,12 +1,12 @@
 {
   "name": "nest-bootstrap-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI tool to bootstrap NestJS project with TypeORM and Swagger",
   "main": "index.js",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WebNaresh/nest-bootstrap-cli.git.git"
+    "url": "git+https://github.com/WebNaresh/nest-js-template.git"
   },
   "author": "Naresh Bhosale",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "transfyvthree": "./bin/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/WebNaresh/nest-bootstrap-cli.git/issues"
+    "url": "https://github.com/WebNaresh/nest-js-template.git/issues"
   },
-  "homepage": "https://github.com/WebNaresh/nest-bootstrap-cli.git#readme"
+  "homepage": "https://github.com/WebNaresh/nest-js-template.git#readme"
 }
